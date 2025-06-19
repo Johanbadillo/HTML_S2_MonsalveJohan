@@ -8,14 +8,27 @@
 <body>
     <form action="" method="post">
         <p><label for="Nombre">Nombre: </label>
-        <input type="text" id="Nombre" name="Nombre" maxlength="50"></p>
+        <input type="text" id="Nombre" name="Nombre" maxlength="50">
+        </p>
         <p><label for="Apellidos">Apellidos: </label>
-        <input type="text" id="Apellidos" name="Apellidos" maxlength="50"></p>
+        <input type="text" id="Apellidos" name="Apellidos" maxlength="50">
+        </p>
         <p><label>Sexo:</label>
         <input type="radio" name="Sexo" 
         value="Hombre">Hombre</input>
         <input type="radio" name="Sexo" 
-        value="Mujer">Mujer</input><br><br>
+        value="Mujer">Mujer</input>
+        </p>
+        <p><label for="Correo">Correo: </label>
+        <input type="email" name="Correo" id="Correo">
+        </p>
+        <p><label for="Poblacion">Poblacion: </label>
+        <select name="Poblacion" id="Poblacion">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </select>
         </p>
         
     </form>
