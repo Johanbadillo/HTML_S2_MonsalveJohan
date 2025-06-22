@@ -310,3 +310,7 @@
     position: absolute;
     font-family: 'Amazon Ember', Light;
 }
+.TerminosyCondiciones span{
+    display: inline-block;
+    margin: 0 5px;
+}
