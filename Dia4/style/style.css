@@ -6,7 +6,6 @@
     height: 1080px;
     background: transparent url("/Dia4/img/fondo1.png") 0% 0% no-repeat padding-box;;
     position: absolute;
-    opacity: 100%;
 }
 .fondoPrincipal{
     top: 0px;
@@ -15,7 +14,6 @@
     height: 4149px;
     background: transparent url("/Dia4/img/fondoPrincipal.png") 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
 }
 .lupa{
     top: 37px;
@@ -110,6 +108,37 @@
     border-radius: 108px 108px 108px 108px;
     background-color: #00A8E1;
     position: absolute;
+}
+.texCuadro1Superior{
+    top: 1180px;
+    left: 400px;
+    width: 1200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: left;
+    position: absolute;
+    font-family: 'Amazon Ember', Bold;
+}
+.tv{
+    top: 1300px;
+    left: 863px;
+    width: 280px;
+    height: 309px;
+    background: transparent url('/Dia4/img/tv.png') 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+.texCuadro1Inferior{
+    top: 1500px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    color: #ffffffaf;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Amazon Ember', Light;
+    line-height: 60px;
 }
 .cuadro2{
     top: 1717px;
