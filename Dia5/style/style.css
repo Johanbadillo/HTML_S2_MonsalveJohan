@@ -71,12 +71,33 @@
     height: 0px;
     border: 1px solid #212020;
     position: absolute;
-
+}
+.linea2{
+    top: 303px;
+    left: 1096px;
+    width: 84px;
+    height: 0px;
+    border: 1px solid #212020;
+    position: absolute;
 }
 .verSaldo{
     top: 242px;
     left: 1072px;
     width: 132px;
+    height: 41px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    text-align: left;
+    font-family: "Open Sans, Regular";
+    position: absolute;
+    background: transparent;
+    text-decoration: none;
+}
+.verCompra{
+    top: 242px;
+    left: 825px;
+    width: 230px;
     height: 41px;
     font-size: 30px;
     line-height: 41px;
