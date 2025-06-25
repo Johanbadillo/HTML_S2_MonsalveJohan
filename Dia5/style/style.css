@@ -170,20 +170,20 @@
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
     font-family: "Open Sans, Regular";
     opacity: 70%;
 }
 ul{
     top: 450px;
-    left: 1400px;
+    left: 1390px;
     width: 23px;
     height: 187px;
     position: absolute;
     list-style-type: none;
     color: #FFFFFF;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     line-height: 4;
 }
 .claro{
