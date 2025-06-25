@@ -1,8 +1,8 @@
-.elemento {
+.elementos {
     width: 1600px;
     height: 1200px;
     background-image: linear-gradient(#ffffff 0%,#E6E6E6 21%, #808080 100%);
-    position: relative;
+    position: absolute;
 }
 .cuadro{
     top: 200px;
@@ -10,7 +10,7 @@
     width: 1400px;
     height: 800px;
     background-color: #FFFFFF;
-    position: relative;
+    position: absolute;
 }
 .logoGrande{
     top: 243px;
@@ -51,4 +51,63 @@
     height: 497px;
     position: absolute;
     background: transparent;
+}
+.compraTarjeta{
+    top: 212px;
+    left: 825px;
+    width: 230px;
+    height: 41px;
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    line-height: 41px;
+    font-family: "Open Sans, Regular";
+    position: absolute;
+}
+.linea{
+    top: 303px;
+    left: 841px;
+    width: 146px;
+    height: 0px;
+    border: 1px solid #212020;
+    position: absolute;
+
+}
+.verSaldo{
+    top: 242px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    text-align: left;
+    font-family: "Open Sans, Regular";
+    position: absolute;
+    background: transparent;
+    text-decoration: none;
+}
+.TarjetaSaldo{
+    top: 861px;
+    left: 158px;
+    width: 716px;
+    height: 55px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    text-align: left;
+    font-family: "Open Sans, Semibold";
+}
+.saldo{
+    top: 924px;
+    left: 157px;
+    width: 139px;
+    height: 37px;
+    position: absolute;
+    font-size: 27px;
+    line-height: 37px;
+    color: #000000;
+    text-align: left;
+    font-family: "Open Sans, Semibold";
 }
