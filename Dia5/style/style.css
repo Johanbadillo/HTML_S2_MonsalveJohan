@@ -247,3 +247,26 @@ ul{
     width: 200px;
     height: 37px;
 }
+.cuadroEscogido{
+    top: 820px;
+    left: 595px;
+    width: 288px;
+    height: 58px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    position: absolute;
+    background: transparent;
+}
+.text{
+    top: 810px;
+    left: 699px;
+    width: 77px;
+    height: 37px;
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    font-family: "Open Sans, Semibold";
+    line-height: 37px;
+    color: #000000;
+    opacity: 70%;
+}
