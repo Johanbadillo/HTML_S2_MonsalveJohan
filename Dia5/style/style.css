@@ -52,18 +52,6 @@
     position: absolute;
     background: transparent;
 }
-.compraTarjeta{
-    top: 212px;
-    left: 825px;
-    width: 230px;
-    height: 41px;
-    font-size: 30px;
-    text-align: left;
-    color: #000000;
-    line-height: 41px;
-    font-family: "Open Sans, Regular";
-    position: absolute;
-}
 .linea{
     top: 303px;
     left: 841px;
