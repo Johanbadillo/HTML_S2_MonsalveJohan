@@ -176,16 +176,25 @@ ul{
 }
 .up{
     top: 240px;
-    left: 1440px;
+    left: 1450px;
     width: 24px;
     height: 24px;
-    text-align: center;
-    display: inline-block;
-    transform: rotate(90deg);
-    color: #FFFFFF;
     position: absolute;
-    
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    transform: rotate(90deg);
 }
 .down{
+    top: 946px;
+    left: 1433px;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
     transform: rotate(-90deg);
 }
