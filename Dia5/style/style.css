@@ -111,3 +111,45 @@
     text-align: left;
     font-family: "Open Sans, Semibold";
 }
+.cuadrito{
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+    background-color: #D5FF43;
+    border-radius: 8px;
+    position: absolute;
+}
+.logoPequeño{
+    top: 876px;
+    left: 1195px;
+    width: 129px;
+    height: 29px;
+    position: absolute;
+    background: transparent;
+}
+.textInferior{
+    top: 890px;
+    left: 1205px;
+    width: 111px;
+    height: 36px;
+    position: absolute;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    text-align: left;
+    font-family: "Open Sans, Semibold";
+}
+.cantidad{
+    top: 349px;
+    left: 1415px;
+    width: 84px;
+    height: 27px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: "Open Sans, Regular";
+    opacity: 70%;
+}
