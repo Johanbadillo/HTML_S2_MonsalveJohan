@@ -52,6 +52,14 @@
     position: absolute;
     background: transparent;
 }
+.Metrolinea2{
+    top: 303px;
+    left: 459px;
+    width: 576px;
+    height: 324px;
+    position: absolute;
+    background: transparent;
+}
 .linea{
     top: 303px;
     left: 841px;
@@ -206,4 +214,36 @@ ul{
     text-align: center;
     position: absolute;
     transform: rotate(-90deg);
+}
+.titulo1{
+    top: 600px;
+    left: 401px;
+    width: 700px;
+    height: 55px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    text-align: center;
+    font-family: "Open Sans, Semibold";
+}
+.inferior p{
+    position: absolute;
+    font-size: 27px;
+    line-height: 37px;
+    color: #000000;
+    text-align: center;
+    font-family: "Open Sans, Semibold";
+}
+.actual{
+    top: 677px;
+    left: 583px;
+    width: 329px;
+    height: 37px;
+}
+.escogido{
+    top: 744px;
+    left: 639px;
+    width: 200px;
+    height: 37px;
 }
