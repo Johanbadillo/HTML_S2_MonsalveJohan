@@ -153,3 +153,39 @@
     font-family: "Open Sans, Regular";
     opacity: 70%;
 }
+ul{
+    top: 450px;
+    left: 1400px;
+    width: 23px;
+    height: 187px;
+    position: absolute;
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: left;
+    line-height: 4;
+}
+.claro{
+    color: #FFFFFF;
+    opacity: 40%;
+}
+.oscuro{
+    color: #FFFFFF;
+    opacity: 70%;
+
+}
+.up{
+    top: 240px;
+    left: 1440px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+    position: absolute;
+    
+}
+.down{
+    transform: rotate(-90deg);
+}
