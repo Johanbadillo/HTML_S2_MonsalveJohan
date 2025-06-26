@@ -1,5 +1,7 @@
 @import url("https://fonts.google.com/specimen/Open+Sans");
 .elementos {
+    top: 0px;
+    left: 0px;
     width: 1600px;
     height: 1200px;
     background-image: linear-gradient(#ffffff 0%,#E6E6E6 21%, #808080 100%);
@@ -24,8 +26,8 @@
     background: transparent;
 }
 .barra{
-    top: 200px;
-    left: 1390px;
+    top: 201px;
+    left: 1394px;
     width: 110px;
     height: 800px;
     background-color: #212020;
@@ -163,7 +165,7 @@
 }
 .cantidad{
     top: 349px;
-    left: 1415px;
+    left: 1410px;
     width: 84px;
     height: 27px;
     position: absolute;
