@@ -11,6 +11,8 @@
     height: 800px;
     background-color: #FFFFFF;
     position: absolute;
+    border: 1px solid #707070;
+    border-radius: 0px 8px 8px 0px;
 }
 .logoGrande{
     top: 243px;
@@ -27,6 +29,7 @@
     height: 800px;
     background-color: #212020;
     position: absolute;
+    border-radius: 0px 8px 8px 0px;
 }
 .carrito{
     top: 252px;
