@@ -1,0 +1,38 @@
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #1e1d2b;
+}
+
+.bloques{
+    width: 1080px;
+    height: 2400px;
+    margin: auto;
+}
+
+.lineaSuperior{
+    color: white;
+    display: flex;
+}
+
+.lineaSuperior a{
+    margin-left: 25px;
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.lineaSuperior h1{
+    position: relative;
+    left: 80px;
+    font-size: 27px;
+    top: 1px;
+    margin: 0px;
+}
