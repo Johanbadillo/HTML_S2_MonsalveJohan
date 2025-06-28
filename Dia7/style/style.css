@@ -92,3 +92,14 @@ body{
     padding-right: 50px;
     font-size: 30px;
 }
+
+.part2 .derecha {
+    top: 0px;
+    left: 1400px;
+    position: relative;
+}
+
+.part2 .izquierda{
+    left: 200px;
+    position: relative;
+}
