@@ -1,17 +1,6 @@
 
-
-
-html{
-    height: 100%;
-}
-
 body{
-    background-color: #1e1d2b;
-}
-
-.bloques{
-    width: 1080px;
-    height: 2400px;
+    background-color: #121212;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,7 +13,7 @@ body{
 .lineaSuperior a{
     margin-left: 60px;
     position: relative;
-    left: 800px;
+    left: 1100px;
     font-size: 27px;
     text-decoration: none;
     color: white;
@@ -33,7 +22,7 @@ body{
 
 .lineaSuperior h1{
     position: relative;
-    left: 30px;
+    left: 400px;
     font-size: 40px;
     margin: 0px;
 }
@@ -41,21 +30,65 @@ body{
     color: white;
 }
 .cont1 h1{
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
-    left: 170px;
+    left: 700px;
     top: 100px;
 }
 
 .cont1 img{
-    top: 70px;
+    top: 150px;
     position: relative;
-    left: 400px;
+    left: 840px;
 }
 
 .cont1 h2{
-    top: 100px;
-    left: 150px;
+    top: 150px;
+    left: 540px;
     position: relative;
     font-size: 100px;
+}
+
+.bloques button{
+    background-color: #C2904C;
+    position: relative;
+    left: 950px;
+    top: 100px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.bloqueAbout h1{
+    color: white;
+    position: relative;
+    left: 1000px;
+    font-size: 100px;
+    top: 500px;
+}
+
+.bloqueAbout img{
+    top: 300px;
+    left: 100px;
+    position: relative;
+}
+
+.bloqueAbout p{
+    top: 50px;
+    position: relative;
+    left: 1000px;
+    color: white;
+    font-size: 30px;
+}
+
+.bloqueAbout button{
+    top: 50px;
+    position: relative;
+    left: 1000px;
+    background-color: #C2904C;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
 }
