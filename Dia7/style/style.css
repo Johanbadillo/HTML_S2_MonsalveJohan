@@ -192,19 +192,45 @@ body{
     text-align: center;
 }
 
+.bloqueContact h1{
+    font-size: 50px;
+}
+
+.bloqueContact p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bloqueContact color{
+    top: 1px;
+    color: #C2904C;
+    position: relative;
+}
+
 .columna1{
-    left: -400px;
+    top: 200px;
+    left: -350px;
     position: relative;
 }
 
 .columna2{
-    top: -115px;
-    left: -50px;
+    top: 16px;
+    left: 40px;
     position: relative;
 }
 
 .columna3{
-    top: -233px;
-    left: 350px;
+    top: -170px;
+    left: 460px;
     position: relative;
+}
+
+.recuadro{
+    top: -150px;
+    left: 700px;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    border-top: 3px solid #C2904C;
+    border-bottom: 3px solid #C2904C;
 }
