@@ -3,7 +3,15 @@ body{
     background-color: #121212;
     margin-left: auto;
     margin-right: auto;
+    font-family: sans-serif;
 }
+h1{
+    font-family: serif;
+}
+h2{
+    font-family: serif;
+}
+
 .fondo2{
     margin: -50px;
     background-color:  #0b090950;
@@ -33,7 +41,9 @@ body{
     left: 400px;
     font-size: 40px;
     margin: 0px;
+    font-family: sans-serif;
 }
+
 .cont1{
     color: white;
 }
@@ -194,6 +204,7 @@ body{
 
 .bloqueContact h1{
     font-size: 50px;
+    font-family: sans-serif;
 }
 
 .bloqueContact p{
@@ -201,7 +212,7 @@ body{
     line-height: 30px;
 }
 
-.bloqueContact color{
+color{
     top: 1px;
     color: #C2904C;
     position: relative;
@@ -233,4 +244,10 @@ body{
     position: relative;
     border-top: 3px solid #C2904C;
     border-bottom: 3px solid #C2904C;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    position: relative;
 }
