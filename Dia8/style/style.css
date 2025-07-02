@@ -25,18 +25,27 @@ body{
     grid-gap: 10px;
     background-color: #000000;
     padding: 10px;
+
 }
 
 .grid-container > div {
     background-color: white;
-    text-align: center;
+    text-align: left;
     padding: 20px;
-    font-size: 30px;
+    font-size: 3.5rem;
+    line-height: 60px;
 }
 
 .texto1{
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+    width: 30rem;
+}
+.mini{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
 }
 
 .video1{
@@ -58,6 +67,12 @@ body{
     grid-column-end: 3;
     background-image: url(./../recursos/3.gif);
     background-size: cover; 
-    width: auto;
-    height: 30rem;
+    width: 100rem;
+    height: 60rem;
+}
+color{
+    background-color: #DF4EF6;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 5px;
 }
