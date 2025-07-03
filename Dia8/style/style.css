@@ -22,44 +22,43 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
+    grid-gap: 1.5vw;
     background-color: #000000;
-    padding: 10px;
-
+    padding: 3vw;
+    width: 60vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid-container > div {
     background-color: white;
     text-align: left;
-    padding: 20px;
-    font-size: 3.5rem;
-    line-height: 60px;
+    padding: 3vw;
+    font-size: 2.5vw;
 }
 
 .texto1{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    width: 30rem;
 }
 .mini{
-    margin-top: 1rem;
-    font-size: 1rem;
-    line-height: 1rem;
+    margin-top: 1vw;
+    font-size: 1vw;
+    line-height: 1vw;
 }
 
 .video1{
     background-image: url(./../recursos/1.gif);
     background-size: cover; 
-    width: 30rem;
-    height: 20rem;
+    width: 23vw;
 }
 
 .video2{
     background-image: url(./../recursos/2.gif);
     background-size: cover; 
-    width: 30rem;
-    height: 20rem;
+    width: 23vw;
 }
 
 .video3{
@@ -67,12 +66,11 @@ body{
     grid-column-end: 3;
     background-image: url(./../recursos/3.gif);
     background-size: cover; 
-    width: 100rem;
-    height: 60rem;
+    height: 25vw;
 }
+
 color{
     background-color: #DF4EF6;
-    padding-top: 3px;
-    padding-left: 7px;
-    padding-right: 5px;
+    padding: 0.2vh;
 }
+
