@@ -22,9 +22,9 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 1.5vw;
+    grid-gap: 1vw;
     background-color: #000000;
-    padding: 3vw;
+    padding: 1vw;
     width: 60vw;
     text-align: center;
     margin-left: auto;
@@ -43,6 +43,11 @@ body{
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+div > .texto1{
+    padding-top: 7vw;
+}
+
 .mini{
     margin-top: 1vw;
     font-size: 1vw;
@@ -52,13 +57,15 @@ body{
 .video1{
     background-image: url(./../recursos/1.gif);
     background-size: cover; 
-    width: 23vw;
+    width: 25vw;
+    height: 15vw;
 }
 
 .video2{
     background-image: url(./../recursos/2.gif);
     background-size: cover; 
-    width: 23vw;
+    width: 25vw;
+    height: 15vw;
 }
 
 .video3{
