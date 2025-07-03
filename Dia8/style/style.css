@@ -19,6 +19,14 @@ body{
     text-align: center;
 }
 
+h1{
+    color: white;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -36,6 +44,7 @@ body{
     text-align: left;
     padding: 3vw;
     font-size: 2.5vw;
+    border-radius: 30px;
 }
 
 .texto1{
