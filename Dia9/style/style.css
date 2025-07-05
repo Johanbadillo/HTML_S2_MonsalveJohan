@@ -1,0 +1,74 @@
+*{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1vw;
+}
+
+.img1 {
+    background-image: url(./../img/1.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img2 {
+    background-image: url(./../img/2.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img3 {
+    background-image: url(./../img/3.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img4 {
+    background-image: url(./../img/4.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img5 {
+    background-image: url(./../img/5.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img6 {
+    background-image: url(./../img/6.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img7 {
+    background-image: url(./../img/7.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img8 {
+    background-image: url(./../img/8.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img9 {
+    background-image: url(./../img/9.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
+.img10 {
+    background-image: url(./../img/10.jpeg);
+    background-size: cover; 
+    width: 25vw;
+    height: 25vw;
+}
