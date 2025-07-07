@@ -1,3 +1,17 @@
 body{
-    background-color: black;
+    margin: 0;
+}
+
+.cielo{
+    background: url('../img/cielo.png');
+}
+
+.puente{
+    background: url('../img/puente.png');
+}
+
+.bernie{
+    background: url('../img/bernie.png');
+    width: 112px;
+    height: 156px;
 }
