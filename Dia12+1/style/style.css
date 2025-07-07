@@ -4,23 +4,39 @@ body{
 
 }
 .contenedor{
-    margin-top: 25vw;
+    margin-top: 15vi;
 }
 
 .cielo{
     background: url('../img/cielo.png');
+    box-shadow: 0px 0px 100px rgb(0, 0, 0) inset;
+    animation: movimiento 6s linear infinite;
 }
 
 .puente{
-    background: url('../img/puente.png');;
+    background: url('../img/puente.png') ;
     position: relative;
-    top: 160px;
+    top: 140px;
+    box-shadow: 0px 0px 450px rgb(0, 0, 0) inset;
+    animation: movimiento 6s linear infinite;
 }
 
 .bernie{
     background: url('../img/bernie.png');
-    width: 130px;
-    height: 160px;
+    width: 112px;
+    height: 156px;
     margin: auto;
-    
+    bottom: 25px;
+    position: relative;
+    animation: caminada .28s steps(6) infinite;
+}
+
+
+@keyframes caminada{
+    from{background-position: 0px;}
+    to{background-position: -660px;}
+}
+@keyframes movimiento{
+    from{background-position: 550px;}
+    to{background-position: 0px;}
 }
